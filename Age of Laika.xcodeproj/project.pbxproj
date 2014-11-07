@@ -13,6 +13,7 @@
 		E217413E1A0BD82E00BAB448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E217413D1A0BD82E00BAB448 /* Images.xcassets */; };
 		E21741411A0BD82E00BAB448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E217413F1A0BD82E00BAB448 /* LaunchScreen.xib */; };
 		E217414D1A0BD82E00BAB448 /* Age_of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217414C1A0BD82E00BAB448 /* Age_of_LaikaTests.swift */; };
+		E29E7B381A0BD97000E213B2 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E29E7B371A0BD97000E213B2 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E21741461A0BD82E00BAB448 /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E217414B1A0BD82E00BAB448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E217414C1A0BD82E00BAB448 /* Age_of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_LaikaTests.swift; sourceTree = "<group>"; };
+		E29E7B371A0BD97000E213B2 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E21741341A0BD82E00BAB448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E29E7B371A0BD97000E213B2 /* AgeOfLaika.jpg */,
 				E21741351A0BD82E00BAB448 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E217413C1A0BD82E00BAB448 /* Main.storyboard in Resources */,
+				E29E7B381A0BD97000E213B2 /* AgeOfLaika.jpg in Resources */,
 				E21741411A0BD82E00BAB448 /* LaunchScreen.xib in Resources */,
 				E217413E1A0BD82E00BAB448 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +411,7 @@
 				E21741521A0BD82E00BAB448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E21741531A0BD82E00BAB448 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				E21741551A0BD82E00BAB448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
